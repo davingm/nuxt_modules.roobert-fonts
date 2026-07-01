@@ -1,0 +1,30 @@
+{
+  "name": "@davingm/roobert",
+  "version": "1.0.1",
+  "description": "Roobert font module for Nuxt",
+  "type": "module",
+  "exports": {
+    ".": "./src/module.ts"
+  },
+  "files": [
+    "fonts",
+    "runtime",
+    "src"
+  ],
+  "keywords": [
+    "nuxt",
+    "font",
+    "roobert"
+  ],
+  "author": "davingm",
+  "license": "MIT",
+  "peerDependencies": {
+    "nuxt": "^4.0.0"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^4.4.8"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
